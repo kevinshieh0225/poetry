@@ -23,7 +23,7 @@ print(len(poet))
 for x in poet:
     #opencc
     arcticle = opencc.convert(x)
-    #
+    print('1111')
     #塞選內容
     arcticle = x
     findtag='(<[\s\S]*?>)'#標籤
